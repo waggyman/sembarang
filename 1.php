@@ -21,7 +21,9 @@ if(! $conn){
 //   // $adress=$_POST['adress'];
 // }
 // $umur=$_POST['umur'];
-mysql_select_db('hello_world');
+
+mysql_select_db('TEST');
+
       //fetching
 // $sql="SELECT a.Id, a.Name, b.Umur from Data a, Dats b where a.Id = b.Order_ID";
       //membuat table
