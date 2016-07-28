@@ -5,8 +5,10 @@ session_start();
 <head><title>sign-up page</title></head>
 <body>
   <form method="post" action="postup.php">
-    Username:
-    <br><input type="text" name="user" placeholder="username"></br>
+    Name:
+    <br><input type="text" name="user" placeholder="your name is ?"></br>
+    Email:
+    <br><input type="email" name="email" placeholder="email@example.com"></br>
     Password:
     <br><input type="password" name="password" placeholder="use strong password"></br>
     Confirm Password:

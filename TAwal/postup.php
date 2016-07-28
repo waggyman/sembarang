@@ -23,10 +23,12 @@ else{
   $user=$_POST['user'];
   $pass=$_POST['password'];
 }
+$email=$_POST['email'];
 mysql_select_db('NEWEB');
-$sql="INSERT INTO signup (Username, Password) ".
-      "VALUES ('$user', '$pass');";
+$sql="INSERT INTO signup (Name, Email, Password) ".
+      "VALUES ('$user', '$email', '$pass');";
 $cek=mysql_query($sql, $conn);
+$_SESSION['email']=$email;
 
 
 if(! $cek){

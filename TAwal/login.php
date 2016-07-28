@@ -5,8 +5,8 @@ session_start();
 <head><title>Login Page</title></head>
 <body>
   <form method="post" action="postin.php">
-    Username:
-    <br><input type="text" name="username"></br>
+    Email:
+    <br><input type="email" name="email"></br>
     Password:
     <br><input type="password" name="password"></br>
     <input type="submit" value="login">
