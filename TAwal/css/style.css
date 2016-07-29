@@ -1,0 +1,136 @@
+body{
+  background-color: #f2f2f2;
+  font-family: 'Harabara Mais Demo';
+}
+
+#head{
+  height: 100px;
+  width: 100%;
+  background-color: #333;
+
+}
+#logo{
+float:left;
+height: 100%;
+margin-left: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 15px;
+    overflow: hidden;
+
+}
+
+li {
+    float: right;
+    border-left: 2px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration:none;
+}
+#preview{
+height: 200px;
+background-image: url(../img/prev.jpeg);
+background-position: bottom;
+width: 100%;
+margin-top: 10px;
+}
+#content-img{
+  width: 600px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#content-img > img{
+  width: 600px;
+}
+
+#content-art > p{
+  font-size: 20px;
+}
+
+#new-cont{
+  width: 100%;
+  background-color: #808080;
+}
+#img-content{
+  margin-top: 10px;
+  float: right;
+  width: 600px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+#cont-art > p{
+    font-size: 20px;
+    color: #fff;
+    text-align: right;
+}
+#cont-art > h2{
+    color: #fff;
+    text-align: right;
+}
+
+#footer{
+  width: 100%;
+  background-color: #333;
+  margin-top: 10px;
+}
+
+#footer > p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 0 5px 0;
+}
+
+.form-signin{
+  max-width: 330px;
+  margin: 15px auto;;
+
+  font-family: 'Harabara Mais Demo';
+}
+.commentBox{
+  padding: 0px;
+  border: 2px solid #bbb;
+}
+.commentName{
+  border-bottom: 1px solid #333;
+  padding: 5px;
+  margin: 0 auto;
+}
+.commentArea{
+  background-color: #fff;
+  padding: 10px;
+  margin: 0 auto;
+}
+.about-img{
+  /*background-image: url(../img/profil.jpg);*/
+  width: 530px;
+  float: left;
+}
+.about-art{
+  padding-left: 20px;
+
+}
+
+.about-art > h4{
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+.about-art > p{
+  font-size: 20px;
+}

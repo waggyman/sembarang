@@ -4,6 +4,7 @@ session_start();
  ?>
  <?php
 session_destroy();
+header('Location:home.php');
 ?>
 <html>
 <head><title>Logout</title></head>

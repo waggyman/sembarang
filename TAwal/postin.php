@@ -21,7 +21,7 @@ if($numrows > 0){
   echo "WELCOME ".$user."";
   $_SESSION['user']=$row[1];
 
-  header("Location:comment.php");
+  header("Location:home.php");
 }
 else {
   $_SESSION['msger']="wrong password or username";

@@ -31,14 +31,14 @@ if(isset($_POST['btn-upload']))
     $file_loc = $_FILES['file']['tmp_name'];
  $file_size = $_FILES['file']['size'];
  $file_type = $_FILES['file']['type'];
- $folder="uploads/$file";
+ $folder="TAwal/img/$file";
 
 move_uploaded_file($file_loc, $folder);
 
 }
 ?>
-<html>
+<!-- <html>
 <body>
   <img src="<?php echo $folder; ?>" />
 </body>
-</html>
+</html> -->
