@@ -1,5 +1,6 @@
 <?php
 session_start();
+error_reporting(0);
 $name=$_SESSION['user'];
 $email=$_SESSION['email'];
 ?>

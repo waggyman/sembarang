@@ -1,5 +1,7 @@
 <?php
 session_start();
+error_reporting(0);
+
 ?>
 <html>
 <head><title>sign-up page</title>
